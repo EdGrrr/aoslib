@@ -52,4 +52,4 @@ The following routines are currently implemented:
 from .version import git_revision as __git_revision__
 from .version import version as __version__
 
-from awips import *
+from .awips import *

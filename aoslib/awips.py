@@ -2,7 +2,7 @@
 Python front end to routines in AWIPS I
 """
 
-import _awips
+import aoslib._awips as _awips
 
 def density(p,tvir):
     """
