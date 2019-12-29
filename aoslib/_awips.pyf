@@ -731,7 +731,7 @@ python module _awips ! in
         end function ptozsa
         subroutine tv2temp(tv,q,mni,ni,nj,t) ! in tv2temp.f
             real dimension(mni,nj), intent(in) :: tv
-            real dimension(mni,nj), intent(in)) :: q
+            real dimension(mni,nj), intent(in) :: q
             integer intent(hide), depend(tv) :: mni=shape(tv,0)
             integer optional, check(ni<=shape(tv,0)) :: ni=shape(tv,0)
             integer intent(hide), depend(tv) :: nj=shape(tv,1)
